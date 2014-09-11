@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2C23147A-ACC3-46C2-BBE0-A408DEF6866A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>viewTutorial</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EAED3C12-AA71-4BE8-89E9-D6E62D8340E6</key>
+		<string>https://github.com/jeansung/CS121ViewTutorial.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>viewTutorial/viewTutorial.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EAED3C12-AA71-4BE8-89E9-D6E62D8340E6</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jeansung/CS121ViewTutorial.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EAED3C12-AA71-4BE8-89E9-D6E62D8340E6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EAED3C12-AA71-4BE8-89E9-D6E62D8340E6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CS121ViewTutorial</string>
+		</dict>
+	</array>
+</dict>
+</plist>
