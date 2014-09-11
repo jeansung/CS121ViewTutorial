@@ -46,19 +46,36 @@
     CGRect buttonFrame = CGRectMake(0, 0, buttonSize, buttonSize);
     _button = [[UIButton alloc] initWithFrame:buttonFrame];
     _button.backgroundColor = [UIColor redColor];
+    
+    // part 1: Configure button label to say "Hit me" in Blue
+    // and make the text color blue
+    [_button setTitle:@"Hit me" forState:UIControlStateNormal];
+    UIColor* blue = [UIColor blueColor];
+    [_button setTitleColor:blue forState:UIControlStateNormal];
+    
+    // part 2: set the button to temp highlight when pushed
+    [_button setShowsTouchWhenHighlighted:YES];
+    
     [_gridView addSubview:_button];
     
+    //target for button
+    [_button addTarget:self action:@selector(buttonPressed:) forControlEvents:UIControlEventTouchUpInside];
+    
 
-    
-    
-    
-    
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+/*
+ method that runs when button is pushed
+ */
+
+-(void) buttonPressed: (id) sender {
+    NSLog(@"You pressed the button");
 }
 
 @end
